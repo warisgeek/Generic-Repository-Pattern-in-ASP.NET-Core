@@ -7,7 +7,7 @@ var gulp = require("gulp"),
     uglify = require("gulp-uglify"),
     merge = require("merge-stream"),
     del = require("del"),
-    bundleconfig = require("./bundleconfig.json");
+    bundleconfig = require("./bundleconfig.json"); 
 
 var regex = {
     css: /\.css$/,
